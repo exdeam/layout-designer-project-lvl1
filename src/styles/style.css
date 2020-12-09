@@ -1,53 +1,53 @@
 :root {
-    --white: #fff;
-    --transewhite: #d7ccc0;
-    --light: #f5f4f0;
-    --main: #fe8a02;
-    --maindark: #42413c;
-    --dark: #2a2626;
-    --transedark: #908d8b;
-    --brown: #b09a81;
-    --blue: #1085c5;
+  --white: #fff;
+  --transewhite: #d7ccc0;
+  --light: #f5f4f0;
+  --main: #fe8a02;
+  --maindark: #42413c;
+  --dark: #2a2626;
+  --transedark: #908d8b;
+  --brown: #b09a81;
+  --blue: #1085c5;
 }
 
-/*common*/
+/* common */
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    line-height: 1.6em; 
-    color: #2A2626;   
+  color: #2a2626;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6em;
 }
 
-h1, h2, h3 {
-    font-family: 'Neucha', serif;
-    line-height: 1.2em;
+h1,
+h2,
+h3 {
+  font-family: 'Neucha', serif;
+  line-height: 1.2em;
 }
 
 h1 {
-    font-size: 72px;
+  font-size: 72px;
 }
 
 h2 {
-    font-size: 60px;
+  font-size: 60px;
 }
 
-h3{
-    font-size: 34px;
+h3 {
+  font-size: 34px;
 }
-/*end common*/
+/* end common */
 
-/*header*/
+/* header */
 
-/*end header*/
+/* end header */
 
-/*main*/
-main {
-    
-}
+/* main */
+main {}
 
 section {
-    max-width: 1110px;
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+  max-width: 1110px;
 }
-/*end main*/
+/* end main */
