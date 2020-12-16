@@ -53,6 +53,18 @@
   color: var(--main);
 }
 
+.font-12 {
+  font-size: 12px;
+}
+
+.font-14 {
+  font-size: 14px;
+}
+
+.font-18 {
+  font-size: 18px;
+}
+
 .font-52 {
   font-size: 52px;
 }
@@ -106,7 +118,7 @@ h4 {
   text-transform: uppercase;
 }
 
-button a {
+.header-button a {
   font-weight: bold;
   font-size: 16px;
   font-style: normal;
@@ -187,7 +199,7 @@ header {
   flex-direction: row;
   align-items: flex-end;
   width: 149px;
-  height: 48px;
+  height: 50px;
   margin-top: 35px;
   padding: 12px 24px;
 
@@ -259,6 +271,79 @@ header {
 
 /* end main */
 
+/* footer */
+.footer-form-block {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 40px;
+}
+
+.footer-title {
+  width: 450px;
+  padding: 3px 0;
+
+  font-size: 36px;
+  font-family: 'Neucha', serif;
+
+  line-height: 1.2em;
+}
+
+.footer-mail-form {
+  width: 450px;
+}
+
+.footer-mail-title {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+form .mail-input {
+  width: calc(100% - 105px);
+  height: 20px;
+  padding: 15px;
+
+  border: none;
+}
+
+.submit-button {
+  width: 70px;
+  height: 50px;
+
+  background-color: var(--main);
+  border: none;
+}
+
+.submit-button::before {
+  padding: 4px 14px;
+
+  background-image: url('../images/send.svg');
+  background-repeat: no-repeat;
+  background-size: auto;
+
+  content: "";
+}
+
+.contacts {
+  margin: 60px auto;
+
+  text-align: center;
+}
+
+footer .container {
+  padding: 0;
+}
+
+/* end footer */
+
 /* margins */
 .mt-200 {
   margin-top: 200px;
@@ -295,6 +380,12 @@ header {
   padding-top: 36px;
 }
 
+.pb-8 {
+  padding-bottom: 8px;
+}
+
+/* end paddings */
+
 /* z-index */
 .z-10 {
   z-index: 10;
@@ -303,3 +394,5 @@ header {
 .z-20 {
   z-index: 20;
 }
+
+/* end z-index */
