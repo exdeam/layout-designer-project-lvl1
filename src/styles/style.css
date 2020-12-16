@@ -118,14 +118,6 @@ h4 {
   text-transform: uppercase;
 }
 
-.header-button a {
-  font-weight: bold;
-  font-size: 16px;
-  font-style: normal;
-  line-height: 160%;
-  text-decoration: none;
-}
-
 .bg-before::before {
   position: absolute;
 
@@ -196,15 +188,21 @@ header {
 
 .header-button {
   display: flex;
-  flex-direction: row;
-  align-items: flex-end;
+  justify-content: center;
   width: 149px;
-  height: 50px;
   margin-top: 35px;
-  padding: 12px 24px;
+  padding: 12px;
 
   background-color: var(--main);
   border: 0;
+}
+
+.header-button a {
+  font-weight: bold;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 160%;
+  text-decoration: none;
 }
 
 /* end header */
@@ -323,7 +321,10 @@ form .mail-input {
 }
 
 .submit-button::before {
-  padding: 4px 14px;
+  position: relative;
+  top: 12px;
+  left: 22px;
+  padding: 1px 14px;
 
   background-image: url('../images/send.svg');
   background-repeat: no-repeat;
