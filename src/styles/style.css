@@ -198,7 +198,7 @@ header {
 .img-fst {
   position: absolute;
   top: 55px;
-  right: -320px;
+  right: -310px;
 
   height: 525px;
 }
@@ -266,13 +266,13 @@ header {
 }
 
 .distor-header {
-  width: 42%;
+  width: 45%;
 }
 
 .subheader {
   width: 100%;
 
-  padding: 4px 0 4px 8px;
+  padding: 2px 0 2px 8px;
 
   font-weight: 700;
   font-size: 14px;
@@ -384,12 +384,12 @@ form .mail-input {
   padding-top: 200px;
 }
 
-.pt-30 {
-  padding-top: 30px;
+.pt-20 {
+  padding-top: 20px;
 }
 
-.pb-8 {
-  padding-bottom: 8px;
+.pb-12 {
+  padding-bottom: 12px;
 }
 
 .pb-9 {
