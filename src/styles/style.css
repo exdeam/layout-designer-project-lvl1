@@ -197,14 +197,14 @@ header {
 
 .img-fst {
   position: absolute;
-  top: 40px;
-  right: -316px;
+  top: 36px;
+  right: -320px;
 
   height: 525px;
 }
 
 .btn-fst {
-  margin-top: 35px;
+  margin-top: 50px;
 
   background-color: var(--main);
 }
@@ -270,7 +270,7 @@ header {
 .subheader {
   width: 100%;
 
-  padding: 1px 0 1px 8px;
+  padding-left: 8px;
 
   font-weight: 700;
   font-size: 14px;
@@ -386,8 +386,8 @@ form .mail-input {
   padding-top: 10px;
 }
 
-.pb-14 {
-  padding-bottom: 14px;
+.pb-16 {
+  padding-bottom: 16px;
 }
 
 .pb-9 {
