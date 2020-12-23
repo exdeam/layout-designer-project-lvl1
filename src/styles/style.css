@@ -197,8 +197,8 @@ header {
 
 .img-fst {
   position: absolute;
-  top: 55px;
-  right: -310px;
+  top: 40px;
+  right: -316px;
 
   height: 525px;
 }
@@ -227,8 +227,6 @@ header {
 
 .video {
   position: relative;
-
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
 .nav-card {
@@ -266,13 +264,13 @@ header {
 }
 
 .distor-header {
-  width: 45%;
+  width: 46%;
 }
 
 .subheader {
   width: 100%;
 
-  padding: 2px 0 2px 8px;
+  padding: 1px 0 1px 8px;
 
   font-weight: 700;
   font-size: 14px;
@@ -365,8 +363,8 @@ form .mail-input {
   margin-top: 8px;
 }
 
-.mt-24 {
-  margin-top: 24px;
+.mt-28 {
+  margin-top: 28px;
 }
 
 .mb-30 {
@@ -384,12 +382,12 @@ form .mail-input {
   padding-top: 200px;
 }
 
-.pt-20 {
-  padding-top: 20px;
+.pt-10 {
+  padding-top: 10px;
 }
 
-.pb-12 {
-  padding-bottom: 12px;
+.pb-14 {
+  padding-bottom: 14px;
 }
 
 .pb-9 {
