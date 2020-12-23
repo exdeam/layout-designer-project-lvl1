@@ -30,9 +30,17 @@
   background-color: var(--maindark);
 }
 
+.bg-main {
+  background-color: var(--main);
+}
+
 /* end background */
 
 /* fonts */
+.font-brown {
+  color: var(--brown);
+}
+
 .font-grey {
   color: var(--transedark);
 }
@@ -118,7 +126,7 @@ h4 {
   text-transform: uppercase;
 }
 
-.bg-before::before {
+.bg-questions::before {
   position: absolute;
 
   width: 100%;
@@ -161,12 +169,21 @@ section:not(:first-child) {
   text-decoration: none;
 }
 
-.width-50 {
+.col-50 {
   width: calc(50% - 15px);
 }
 
 .shadow {
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  width: 124px;
+  padding: 12px;
+
+  border: 0;
 }
 
 /* end common */
@@ -178,7 +195,7 @@ header {
   overflow: hidden;
 }
 
-.header-img {
+.img-fst {
   position: absolute;
   top: 55px;
   right: -320px;
@@ -186,18 +203,13 @@ header {
   height: 525px;
 }
 
-.header-button {
-  display: flex;
-  justify-content: center;
-  width: 124px;
+.btn-fst {
   margin-top: 35px;
-  padding: 12px;
 
   background-color: var(--main);
-  border: 0;
 }
 
-.header-button a {
+.btn-fst a {
   font-weight: bold;
   font-size: 16px;
   font-style: normal;
@@ -217,10 +229,6 @@ header {
   position: relative;
 
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
-}
-
-.main-dark {
-  position: relative;
 }
 
 .nav-card {
@@ -274,6 +282,10 @@ header {
 /* end main */
 
 /* footer */
+footer .container {
+  padding-top: 0;
+}
+
 .footer-form-block {
   display: flex;
   flex-wrap: wrap;
@@ -294,12 +306,7 @@ header {
 }
 
 .footer-mail-form {
-  width: 450px;
-}
-
-.footer-mail-title {
-  font-weight: 700;
-  font-size: 18px;
+  width: 490px;
 }
 
 form {
@@ -320,7 +327,6 @@ form .mail-input {
   width: 70px;
   height: 50px;
 
-  background-color: var(--main);
   border: none;
 }
 
@@ -328,6 +334,7 @@ form .mail-input {
   position: relative;
   top: 12px;
   left: 22px;
+
   padding: 1px 14px;
 
   background-image: url('../images/send.svg');
@@ -338,13 +345,9 @@ form .mail-input {
 }
 
 .contacts {
-  margin: 60px auto;
+  margin: 60px auto 0 auto;
 
   text-align: center;
-}
-
-footer .container {
-  padding: 0;
 }
 
 /* end footer */
@@ -387,6 +390,10 @@ footer .container {
 
 .pb-8 {
   padding-bottom: 8px;
+}
+
+.pb-9 {
+  padding-bottom: 9px;
 }
 
 /* end paddings */
