@@ -197,7 +197,7 @@ header {
 
 .img-fst {
   position: absolute;
-  top: 52px;
+  top: 55px;
   right: -270px;
 }
 
@@ -207,7 +207,7 @@ header {
 }
 
 .btn-fst {
-  margin-top: 40px;
+  margin-top: 30px;
 
   background-color: var(--main);
 }
@@ -266,11 +266,11 @@ header {
 }
 
 .distor-img {
-  width: 52%;
+  width: 52.1%;
 }
 
 .distor-header {
-  width: 45%;
+  width: 45.3%;
 }
 
 .subheader {
