@@ -197,14 +197,17 @@ header {
 
 .img-fst {
   position: absolute;
-  top: 36px;
-  right: -320px;
+  top: 52px;
+  right: -270px;
+}
 
+.img-fst img{
+  width: 1082px;
   height: 525px;
 }
 
 .btn-fst {
-  margin-top: 50px;
+  margin-top: 40px;
 
   background-color: var(--main);
 }
@@ -231,6 +234,9 @@ header {
 
 .nav-card {
   width: 350px;
+}
+
+.nav-card:nth-child(-n+3) {
   margin-bottom: 20px;
 }
 
@@ -264,13 +270,13 @@ header {
 }
 
 .distor-header {
-  width: 46%;
+  width: 45%;
 }
 
 .subheader {
   width: 100%;
 
-  padding-left: 8px;
+  padding: 1px 0 1px 8px;
 
   font-weight: 700;
   font-size: 14px;
